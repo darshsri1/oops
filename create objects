@@ -1,0 +1,47 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+ class student{
+     
+     public:
+     // attributes
+     int id;
+     int age;
+     string name;
+     int nos;
+     
+ 
+ //ctor
+ student(){
+     cout<<"default ctor"<<endl;
+ }
+ // parametrized constructor
+ 
+ student(int id,string name,int age,int nos){
+     this->id;
+     this->name;
+     this->age;
+     this->nos;
+ }
+ // behaviour
+ void study(){
+     cout<<this->name<<"studying "<<endl;
+ }
+ void sleep(){
+     cout<<this->name<<"sleeping"<<endl;
+ }
+ // dtor
+ ~student(){
+     cout<<"default dtor"<<endl;
+ }
+ };
+ 
+
+int main() {
+    // Write C++ code here
+  student A(8,"darsh",9,2);
+  cout<< A.name;
+  A.study();
+
+    return 0;
+}
